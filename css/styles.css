@@ -17,6 +17,7 @@ body {
 	background-repeat: no-repeat;
 	background-color: #1A1B1F;
 	font-family: "Helvetica Neue",Arial,sans-serif;
+
 }
 
 /* GLOBAL ELEMENTS */
@@ -259,4 +260,7 @@ body {
 				left: 0;
 			}
 
+#char-count,#tweet-submit{visibility:hidden;}
 
+div.tweet-actions,.favorites,.retweets{visibility:hidden;}
+.sshow{visibility:visible;}
